@@ -58,16 +58,16 @@ pipeline{
 
                                           }
                                       }
-                                                  stage('Quality Gate Status'){
+                                                 stage('Quality Gates'){
 
-                                                      steps{
+                                                     timeout(time: 1, unit: 'HOURS') {
+                                                     def qg = waitForQualityGate()
+                                                     if (qg.status != 'OK') {
+                                                       error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                                                     }
+                                                   }
 
-                                                          script{
-
-                                                             waitForQualityGate abortPipeline: false, credentialsId: 'sonar-api'
-                                                          }
-                                                      }
-                                                  }
+                                                   }
 }
 }
 
