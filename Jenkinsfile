@@ -20,7 +20,7 @@ pipeline{
 
                 steps{
 
-                    sh 'mvn test'
+                    sh 'C:/Program Files (x86)/apache-maven-3.8.6/bin test'
 
                 }
             }
