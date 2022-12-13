@@ -1,0 +1,29 @@
+2022-12-09 11:59:51.849  INFO 20852 --- [restartedMain] com.insat.demo.DemoApplication           : Starting DemoApplication using Java 11.0.16.1 on ranim with PID 20852 (C:\Users\LENOVO-PC\Downloads\devops-main\target\classes started by LENOVO-PC in C:\Users\LENOVO-PC\Downloads\devops-main)
+2022-12-09 11:59:51.862  INFO 20852 --- [restartedMain] com.insat.demo.DemoApplication           : No active profile set, falling back to default profiles: default
+2022-12-09 11:59:51.933  INFO 20852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-09 11:59:51.933  INFO 20852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-09 11:59:52.901  INFO 20852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-09 11:59:53.331  INFO 20852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 419 ms. Found 6 JPA repository interfaces.
+2022-12-09 11:59:54.447  INFO 20852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-12-09 11:59:54.467  INFO 20852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-09 11:59:54.467  INFO 20852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2022-12-09 11:59:54.643  INFO 20852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-09 11:59:54.643  INFO 20852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2710 ms
+2022-12-09 11:59:54.816  INFO 20852 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-09 11:59:54.867  INFO 20852 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-09 11:59:55.070  INFO 20852 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-09 11:59:55.325  INFO 20852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-09 12:00:00.698  INFO 20852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-09 12:00:00.713  INFO 20852 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-09 12:00:07.619  INFO 20852 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-09 12:00:07.627  INFO 20852 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09 12:00:07.883  WARN 20852 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-09 12:00:08.098  INFO 20852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-09 12:00:08.130  INFO 20852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-09 12:00:08.138  INFO 20852 --- [restartedMain] com.insat.demo.DemoApplication           : Started DemoApplication in 16.858 seconds (JVM running for 18.638)
+2022-12-09 12:03:16.154  INFO 20852 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-09 12:03:16.157  INFO 20852 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-09 12:03:16.171  INFO 20852 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-12-09 16:09:02.380  WARN 20852 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m55s793ms374µs500ns).
+2022-12-09 19:00:29.784  WARN 20852 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h51m42s44ms574µs100ns).
+2022-12-09 22:11:55.601  WARN 20852 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h50m53s267ms512µs).
